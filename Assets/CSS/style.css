@@ -1,0 +1,26 @@
+body {
+    background-image: url("Assets/images/white.jpg");
+}
+.jumbotron{
+    background-color: lightpink
+}
+#gameSection, #scoreSection {
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttonSection {
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+h1,h2,h3 {
+    font-family:
+}
+p {
+    font-family: ;
+}
+.numberBox {
+    font-size: 100px;
+    margin: 0px;
+}
