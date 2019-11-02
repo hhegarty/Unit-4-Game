@@ -93,15 +93,15 @@ $("button").on("click",function(){
         console.log(totalScore);
         $("#totalNumber").html(totalScore);
         $("#wins").html("Wins:" + wins);
-
-        alert(function() {gameReset("You win!")});
+// Looked up a better method to alert and reset
+        setTimeout(function() {gameReset("You win!")}, 500 );
     }
     else if (totalScore > randNumber){
         losses++;
         $("#totalNumber").html(totalScore);
         $("#losses").html("Losses:" + losses);
 
-        alert(function() {gameReset("You lost")});
+        setTimeout(function() {gameReset("You lost")}, 500 );
     }
 
 });
