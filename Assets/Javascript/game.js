@@ -40,7 +40,7 @@ function pickRandomCrystals(arr){
 
 function crystalValues(arr){
     for (i = 0; i < arr.length; i++){
-        $("#Button-" + (i + 1)).attr("value",arr[i]);
+        $("#button-" + (i + 1)).attr("value",arr[i]);
         console.log(this);  
     }
     c1 = arr[0];
@@ -66,28 +66,28 @@ pickRandomNumber(rand);
 pickRandomCrystals(crystals);
 crystalValues(crystalNumbers);
 
-$("#Button-1").on("click",function(){
+$("#button-1").on("click",function(){
     totalScore += c1;
     $("#totalNumber").html(totalScore);
     
 });
-$("#Button-2").on("click",function(){
+$("#button-2").on("click",function(){
     totalScore += c2;
     $("#totalNumber").html(totalScore);
     
 });
-$("#Button-3").on("click",function(){
+$("#button-3").on("click",function(){
     totalScore += c3;
     $("#totalNumber").html(totalScore);
     
 });
-$("#Button-4").on("click",function(){
+$("#button-4").on("click",function(){
     totalScore += c4;
     $("#totalNumber").html(totalScore);
     
 });
 
-$("Button").on("click",function(){
+$("button").on("click",function(){
     if (totalScore == randNumber){
         wins++;
         console.log(totalScore);
