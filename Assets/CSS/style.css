@@ -1,18 +1,17 @@
 body {
-    background-image: url("Assets/images/white.jpg");
+    background: url(/Images/white.jpeg);
 }
-.jumbotron{
-    background-color: lightpink
+
+
+.Skulls{
+display: inline-block;
+max-width: 100px;
+max-height: 100px;
+width: auto;
+height: auto;
+margin: 10px;
 }
-#gameSection, #scoreSection {
-    background-color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-}
-#buttonSection {
-    padding: 0px;
-    padding-top: 50px;
-    padding-bottom: 25px;
+
 }
 h1,h2,h3 {
     font-family:
