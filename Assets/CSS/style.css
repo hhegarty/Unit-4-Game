@@ -1,25 +1,22 @@
-body {
-    background: url(/Images/white.jpeg);
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: black;
 }
 
-
-.Skulls{
-display: inline-block;
-max-width: 100px;
-max-height: 100px;
-width: auto;
-height: auto;
-margin: 10px;
+h2 {
+    font-size: 20px;
+    text-align: left;
+    color: black;
 }
 
-}
-h1,h2,h3 {
-    font-family:
-}
 p {
-    font-family: ;
+    text-align:left;
+    font-size: 15px;
+    color: black;
 }
-.numberBox {
-    font-size: 100px;
-    margin: 0px;
-}
+ .jumbotron {
+     background-image: url("/Assets/Images/pink.jpg");
+     /*wasnt sure how to set background. Tried this method to no avail.*/
+     background-color: mistyrose;
