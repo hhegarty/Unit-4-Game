@@ -1,3 +1,7 @@
+body{
+    /*wasnt sure how to set background. Tried this method to no avail.*/
+    background-image: url("/Assets/Images/pink.jpg");
+}
 h1 {
     font-size: 30px;
     text-align: center;
@@ -17,6 +21,5 @@ p {
     color: black;
 }
  .jumbotron {
-     background-image: url("/Assets/Images/pink.jpg");
-     /*wasnt sure how to set background. Tried this method to no avail.*/
      background-color: mistyrose;
+ }
